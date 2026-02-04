@@ -15,7 +15,7 @@ function Details() {
     const { movies } = useContext(UserMovies);
     const details = movies.find((p) => p.id === Number(id))
 
-    if (!details) { <p>movie not found</p> }
+    if (!details) { <p className="text-black">movie not found</p> }
 
     return (
         <div className="w-screen h-screen bg-[#16151c] ">

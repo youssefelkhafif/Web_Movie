@@ -17,17 +17,17 @@ function Movies() {
 
     const { movies } = useContext(UserMovies);
     return (
-        <div className="Bg-[#16151c] flex flex-col gap-y-5  ">
+        <div className=" bg-[#16151c] flex flex-col gap-y-5  ">
             <Navbar />
-            <div className="flex justify-between p-10 ">
+            <div className=" bg-[#16151c]  flex justify-between p-10 ">
                 <div className="flex items-center gap-2 ">
                     <FaCircle color="yellow"/>
                     <p className="text-white">comming son</p>
                 </div>
 
-                <div className="Flex gap-2">
+                <div className="flex gap-2">
                     <CiCircleChevLeft className="text-4xl text-gray-600 hover:text-white" />
-                    <CiCircleChevRight className="text-4Xl text-gray-600 hover:text-white" />
+                    <CiCircleChevRight className="text-4xl text-gray-600 hover:text-white" />
                 </div>
             </div>
             <div className="grid grid-cols-7 gap-4 grid-row-2 gap-y-10  ">
