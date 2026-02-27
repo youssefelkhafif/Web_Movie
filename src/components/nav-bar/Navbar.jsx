@@ -11,10 +11,7 @@ function Navbar() {
 
     const [qeury, setQeury] = useState()
 
-    // const filteredResults = movies.filter(item =>
-    //     item.title.toLowerCase().includes(qeury.toLowerCase()) ||
-    //     item.description.toLowerCase().includes(qeury.toLowerCase())
-    // );
+
 
 
     return (
@@ -40,18 +37,7 @@ function Navbar() {
                     <img src={images.profile} alt="" />
                 </div>
             </div>
-            {/* <ul style={styles.list}>
-                {filteredResults.length > 0 ? (
-                    filteredResults.map(item => (
-                        <li key={item.id} style={styles.item}>
-                            <strong>{item.title}</strong>
-                            <p>{item.description}</p>
-                        </li>
-                    ))
-                ) : (
-                    <li style={styles.noResult}>No results found</li>
-                )}
-            </ul> */}
+
         </nav>
     );
 }
